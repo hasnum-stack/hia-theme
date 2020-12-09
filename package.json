@@ -1,0 +1,22 @@
+{
+    "name": "hasnum-hia-theme",
+    "displayName": "hasnum@hia-theme",
+    "publisher": "hasnum",
+    "description": "",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "hasnum",
+                "uiTheme": "vs-dark",
+                "path": "./themes/hasnum-color-theme.json"
+            }
+        ]
+    }
+}
