@@ -68,11 +68,23 @@
             }
         },
         {
-            "scope": "variable",
+            "scope": "meta.import.js",
             "settings": {
-                "foreground": "#FF6B6B"
+                "foreground": "#fc5185"
             }
         },
+        {
+            "scope": "variable.other.readwrite.js",
+            "settings": {
+                "foreground": "#ff7c61"
+            }
+        },
+        // {
+        //     "scope": "variable",
+        //     "settings": {
+        //         "foreground": "#ee6f57"
+        //     }
+        // },
         {
             "scope": "variable.parameter",
             "settings": {
@@ -279,16 +291,17 @@
         {
             "scope": "support.class.component",
             "settings": {
-                "foreground": "#FF75B5",
-                "fontStyle": "italic"
+                // "foreground": "#ff66ad",
+                "foreground": "#f0388a",
+                // "fontStyle": "italic"
             }
         },
-        {
-            "scope": "meta.tag.js entity.name.tag",
-            "settings": {
-                "foreground": "#FFCC95"
-            }
-        },
+        // {
+        //     "scope": "meta.tag.js entity.name.tag",
+        //     "settings": {
+        //         "foreground": "#FFCC95"
+        //     }
+        // },
         {
             "scope": "entity.other.attribute-name",
             "settings": {
@@ -436,12 +449,12 @@
                 "foreground": "#B084EB"
             }
         },
-        {
-            "scope": "entity.name.tag.js.jsx, support.class.component.js.jsx",
-            "settings": {
-                "foreground": "#FF2C6D"
-            }
-        },
+        // {
+        //     "scope": "entity.name.tag.js,support.class.component.js,entity.name.tag.js.jsx, support.class.component.js.jsx",
+        //     "settings": {
+        //         "foreground": "#FF2C6D"
+        //     }
+        // },
         {
             "scope": "variable.language.super.js.jsx",
             "settings": {
