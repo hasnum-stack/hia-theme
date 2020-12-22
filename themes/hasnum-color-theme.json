@@ -68,7 +68,7 @@
             }
         },
         {
-            "scope": "meta.import",
+            "scope": "meta.import,meta.export",
             "settings": {
                 "foreground": "#fc5185"
             }
@@ -136,7 +136,7 @@
         {
             "scope": "string", //字符串的颜色 '' 或者 ""
             "settings": {
-                "foreground": "#a3d8f4" // 1be0c4  
+                "foreground": "#4dbbf7" // 1be0c4  
             }
         },
         {
@@ -182,7 +182,7 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#6FC1FF"
+                "foreground": "#2da4ff"
             }
         },
         {
