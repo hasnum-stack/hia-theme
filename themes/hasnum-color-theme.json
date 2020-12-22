@@ -68,13 +68,19 @@
             }
         },
         {
-            "scope": "meta.import.js",
+            "scope": "meta.import",
             "settings": {
                 "foreground": "#fc5185"
             }
         },
         {
-            "scope": "variable.other.readwrite.js",
+            "scope": "meta.decorator.ts",
+            "settings": {
+                "foreground": "#b2deec"
+            }
+        },
+        {
+            "scope": "variable.other.readwrite.js,variable.other.readwrite.ts",
             "settings": {
                 "foreground": "#ff7c61"
             }
@@ -130,7 +136,7 @@
         {
             "scope": "string", //字符串的颜色 '' 或者 ""
             "settings": {
-                "foreground": "#8b97ff" // 1be0c4  
+                "foreground": "#a3d8f4" // 1be0c4  
             }
         },
         {
@@ -148,12 +154,12 @@
                 "foreground": "#FFCC95"
             }
         },
-        {
-            "scope": "support",
-            "settings": {
-                "foreground": "#FFCC95"
-            }
-        },
+        // {
+        //     "scope": "support",
+        //     "settings": {
+        //         "foreground": "#FFCC95"
+        //     }
+        // },
         {
             "scope": "support.class",
             "settings": {
@@ -292,7 +298,7 @@
             "scope": "support.class.component",
             "settings": {
                 // "foreground": "#ff66ad",
-                "foreground": "#f0388a",
+                "foreground": "#f04438",
                 // "fontStyle": "italic"
             }
         },
@@ -422,13 +428,20 @@
         {
             "scope": "text.html",
             "settings": {
-                "foreground": "#4adba1" //  6fb98f 36b5b0  9b45e4  36b5b0
+                "foreground": "#9affd7" //  6fb98f 36b5b0  9b45e4  36b5b0
             }
         },
         {
-            "scope": "entity.name.type.class.js",
+            "scope": "entity.name.type.module",
             "settings": {
-                "foreground": "#6FC1FF"
+                "foreground": "#bc6ff1"
+            }
+        },
+        // entity.name.type.ts
+        {
+            "scope": "entity.name.type.class.js,entity.name.type.class.ts",
+            "settings": {
+                "foreground": "#fc81bc"
             }
         },
         {
@@ -558,6 +571,24 @@
             "scope": "meta.object.member.js",
             "settings": {
                 "foreground": "#f6d6ad"
+            }
+        },
+        {
+            "scope": "meta.type.annotation.ts",
+            "settings": {
+                "foreground": "#aee6e6"
+            }
+        },
+        {
+            "scope": "variable.object.property.ts",
+            "settings": {
+                "foreground": "#9ab3f5"
+            }
+        },
+        {
+            "scope": "meta.object-literal.key.ts",
+            "settings": {
+                "foreground": "#da9ff9"
             }
         },
     ],
