@@ -46,7 +46,7 @@
         {
             "scope": "storage",
             "settings": {
-                "foreground": "#FFB86C"
+                // "foreground": "#eeba82"
             }
         },
         {
@@ -136,7 +136,7 @@
         {
             "scope": "string", //字符串的颜色 '' 或者 ""
             "settings": {
-                "foreground": "#4dbbf7" // 1be0c4  
+                "foreground": "#51adcf" // 1be0c4  
             }
         },
         {
@@ -182,7 +182,7 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#2da4ff"
+                "foreground": "#51b1fa"
             }
         },
         {
@@ -601,6 +601,36 @@
             "scope": "meta.object-literal.key.ts",
             "settings": {
                 "foreground": "#da9ff9"
+            }
+        },
+        {
+            "scope": "meta.return.type.ts",
+            "settings": {
+                "foreground": "#da9ff9"
+            }
+        },
+        {
+            "scope": "new.expr.ts",
+            "settings": {
+                "foreground": "#eea857"
+            }
+        },
+        {
+            "scope": "meta.var.expr.js,meta.var.expr.ts",
+            "settings": {
+                "foreground": "#f8daa3"
+            }
+        },
+        {
+            "scope": "meta.function.js,meta.function.ts",
+            "settings": {
+                "foreground": "#a7c5eb"
+            }
+        },
+        {
+            "scope": "meta.class.js,meta.class.ts",
+            "settings": {
+                "foreground": "#a7c5eb"
             }
         },
     ],
