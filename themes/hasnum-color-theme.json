@@ -136,7 +136,7 @@
         {
             "scope": "string", //字符串的颜色 '' 或者 ""
             "settings": {
-                "foreground": "#4dbbf7" // 1be0c4  
+                "foreground": "#4dbbf7" // 1be0c4  4dbbf7
             }
         },
         {
@@ -425,12 +425,6 @@
                 "fontStyle": "italic"
             }
         },
-        // {
-        //   "scope": ["text.html","punctuation.definition.string"],
-        //   "settings": {
-        //     "foreground": "#000000"
-        //   }
-        // },
         {
             "scope": "text.html",
             "settings": {
@@ -571,6 +565,18 @@
             "scope": "comment.block storage",
             "settings": {
                 "foreground": "#FFCC95"
+            }
+        },
+        {
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "#E06C75"
+            }
+        },
+        {
+            "scope": "string.quoted.double.json",
+            "settings": {
+                "foreground": "#98C379"
             }
         },
         {
