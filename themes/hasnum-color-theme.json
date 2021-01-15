@@ -15,8 +15,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#676B79",
-                "fontStyle": ""
+                "foreground": "#24cebd",
             }
         },
         {
@@ -26,7 +25,7 @@
             }
         },
         {
-            "scope": "keyword.control, keyword.operator.new",
+            "scope": "keyword.control,keyword.operator.new, storage.modifier.async",
             "settings": {
                 "foreground": "#FF75B5"
             }
@@ -136,7 +135,7 @@
         {
             "scope": "string", //字符串的颜色 '' 或者 ""
             "settings": {
-                "foreground": "#51adcf" // 1be0c4  
+                "foreground": "#54bbe0" // 1be0c4  
             }
         },
         {
@@ -582,7 +581,7 @@
         {
             "scope": "meta.object.member.js",
             "settings": {
-                "foreground": "#f6d6ad"
+                "foreground": "#ff9a8c"
             }
         },
         {
