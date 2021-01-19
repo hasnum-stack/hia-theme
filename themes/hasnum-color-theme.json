@@ -15,7 +15,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#24cebd",
+                "foreground": "#40867f",
             }
         },
         {
@@ -597,9 +597,9 @@
             }
         },
         {
-            "scope": "meta.object-literal.key.ts",
+            "scope": "meta.object-literal.key",
             "settings": {
-                "foreground": "#da9ff9"
+                "foreground": "#ff9b93"
             }
         },
         {
@@ -609,13 +609,13 @@
             }
         },
         {
-            "scope": "new.expr.ts",
+            "scope": "new.expr",
             "settings": {
                 "foreground": "#eea857"
             }
         },
         {
-            "scope": "meta.var.expr.js,meta.var.expr.ts",
+            "scope": "meta.var.expr.js , meta.var.expr.ts",
             "settings": {
                 "foreground": "#f8daa3"
             }
