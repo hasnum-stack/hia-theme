@@ -133,9 +133,9 @@
             }
         },
         {
-            "scope": "string", //字符串的颜色 '' 或者 ""
+            "scope": "string,meta.jsx.children",
             "settings": {
-                "foreground": "#54bbe0" // 1be0c4  
+                "foreground": "#7ed5f5" // 1be0c4  
             }
         },
         {
@@ -468,7 +468,7 @@
             }
         },
         {
-            "scope": "entity.name.tag.js,entity.name.tag.js.jsx",
+            "scope": "entity.name.tag",
             "settings": {
                 "foreground": "#FF2C6D"
             }
@@ -615,7 +615,7 @@
             }
         },
         {
-            "scope": "meta.var.expr.js , meta.var.expr.ts",
+            "scope": "meta.var.expr",
             "settings": {
                 "foreground": "#f8daa3"
             }
