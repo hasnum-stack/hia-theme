@@ -15,8 +15,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#676B79",
-                "fontStyle": ""
+                "foreground": "#40867f",
             }
         },
         {
@@ -26,7 +25,7 @@
             }
         },
         {
-            "scope": "keyword.control, keyword.operator.new",
+            "scope": "keyword.control,keyword.operator.new, storage.modifier.async",
             "settings": {
                 "foreground": "#FF75B5"
             }
@@ -43,12 +42,12 @@
                 "foreground": "#FFCC95"
             }
         },
-        {
-            "scope": "storage",
-            "settings": {
-                "foreground": "#FFB86C"
-            }
-        },
+        // {
+        //     "scope": "storage",
+        //     "settings": {
+        //         // "foreground": "#eeba82"
+        //     }
+        // },
         {
             "scope": "constant",
             "settings": {
@@ -136,7 +135,7 @@
         {
             "scope": "string", //字符串的颜色 '' 或者 ""
             "settings": {
-                "foreground": "#4dbbf7" // 1be0c4  4dbbf7
+                "foreground": "#54bbe0" // 1be0c4  
             }
         },
         {
@@ -182,7 +181,7 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#2da4ff"
+                "foreground": "#51b1fa"
             }
         },
         {
@@ -243,7 +242,7 @@
             "scope": "punctuation.definition.expression, punctuation.definition.subexpression, punctuation.definition.block.unescaped, punctuation.definition.tag",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#FFCC95"
+                "foreground": "#ffce99"
             }
         },
         {
@@ -425,6 +424,12 @@
                 "fontStyle": "italic"
             }
         },
+        // {
+        //   "scope": ["text.html","punctuation.definition.string"],
+        //   "settings": {
+        //     "foreground": "#000000"
+        //   }
+        // },
         {
             "scope": "text.html",
             "settings": {
@@ -457,13 +462,13 @@
             }
         },
         {
-            "scope": "keyword.control.export.js",
+            "scope": "keyword.control.export",
             "settings": {
                 "foreground": "#B084EB"
             }
         },
         {
-            "scope": "entity.name.tag.js,entity.name.tag.js.jsx",
+            "scope": "entity.name.tag",
             "settings": {
                 "foreground": "#FF2C6D"
             }
@@ -568,18 +573,6 @@
             }
         },
         {
-            "scope": "support.type.property-name.json",
-            "settings": {
-                "foreground": "#E06C75"
-            }
-        },
-        {
-            "scope": "string.quoted.double.json",
-            "settings": {
-                "foreground": "#98C379"
-            }
-        },
-        {
             "scope": "comment.block storage.custom, variable.other.jsdoc, variable.other.jsdoc punctuation.definition.string",
             "settings": {
                 "foreground": "#FF9AC1"
@@ -588,7 +581,7 @@
         {
             "scope": "meta.object.member.js",
             "settings": {
-                "foreground": "#f6d6ad"
+                "foreground": "#ff9a8c"
             }
         },
         {
@@ -604,9 +597,46 @@
             }
         },
         {
-            "scope": "meta.object-literal.key.ts",
+            "scope": "meta.object-literal.key",
+            "settings": {
+                "foreground": "#ff9b93"
+            }
+        },
+        {
+            "scope": "meta.return.type.ts",
             "settings": {
                 "foreground": "#da9ff9"
+            }
+        },
+        {
+            "scope": "new.expr",
+            "settings": {
+                "foreground": "#eea857"
+            }
+        },
+        {
+            //.js,meta.var.expr.ts,meta.var.expr.js.jsx,meta.var.expr.tsx
+            "scope": "meta.var.expr",
+            "settings": {
+                "foreground": "#f8daa3"
+            }
+        },
+        {
+            "scope": "meta.jsx.children",
+            "settings": {
+                "foreground": "#70cbec"
+            }
+        },
+        {
+            "scope": "meta.function.js,meta.function.ts",
+            "settings": {
+                "foreground": "#a7c5eb"
+            }
+        },
+        {
+            "scope": "meta.class.js,meta.class.ts",
+            "settings": {
+                "foreground": "#a7c5eb"
             }
         },
     ],
