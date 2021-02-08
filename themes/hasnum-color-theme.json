@@ -79,7 +79,31 @@
             }
         },
         {
-            "scope": "variable.other.readwrite.js,variable.other.readwrite.ts",
+            "scope": "meta.interface.ts",
+            "settings": {
+                "foreground": "#FF75B5"
+            }
+        },
+        {
+            "scope": "entity.name.type.interface.ts",
+            "settings": {
+                "foreground": "#80d7f1"
+            }
+        },
+        {
+            "scope": "meta.namespace.declaration.ts",
+            "settings": {
+                "foreground": "#da9ff9"
+            }
+        },
+        {
+            "scope": "storage.type.namespace.ts",
+            "settings": {
+                "foreground": "#a7c5eb"
+            }
+        },
+        {
+            "scope": "variable.other.readwrite.js,variable.other.readwrite.ts,variable.other.readwrite.tsx,",
             "settings": {
                 "foreground": "#ff7c61"
             }
@@ -630,7 +654,7 @@
         {
             "scope": "meta.function.js,meta.function.ts",
             "settings": {
-                "foreground": "#a7c5eb"
+                "foreground": "#97a0ee"
             }
         },
         {
