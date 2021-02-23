@@ -102,16 +102,16 @@
                 "foreground": "#a7c5eb"
             }
         },
-        {
-            "scope": "meta.definition.variable",
-            "settings": {
-                "foreground": "#ff7c61"
-            }
-        },
+        // {
+        //     "scope": "meta.definition.variable",
+        //     "settings": {
+        //         "foreground": "#ff7c61"
+        //     }
+        // },
         {
             "scope": "variable",
             "settings": {
-                "foreground": "#ee6f57"
+                "foreground": "#f87d64"
             }
         },
         // {
@@ -467,11 +467,10 @@
                 "foreground": "#bc6ff1"
             }
         },
-        // entity.name.type.ts
         {
-            "scope": "entity.name.type.class.js,entity.name.type.class.ts",
+            "scope": "entity.name.type.class",
             "settings": {
-                "foreground": "#fc81bc"
+                "foreground": "#f8a1d1"
             }
         },
         {
@@ -660,7 +659,13 @@
         {
             "scope": "meta.function",
             "settings": {
-                "foreground": "#97a0ee"
+                "foreground": "#9ba5ff"
+            }
+        },
+        {
+            "scope": "meta.definition.function",
+            "settings": {
+                "foreground": "#0cd8d8"
             }
         },
         {
@@ -676,10 +681,28 @@
         //         "foreground": "#51b1fa"
         //     }
         // },
+        // {
+        //     "scope": "meta.class.js,meta.class.ts",
+        //     "settings": {
+        //         "foreground": "#a7c5eb"
+        //     }
+        // },
         {
-            "scope": "meta.class.js,meta.class.ts",
+            "scope": "storage.type.class",
             "settings": {
-                "foreground": "#a7c5eb"
+                "foreground": "#ff8826"
+            }
+        },
+        {
+            "scope": "storage.type.function.arrow",
+            "settings": {
+                "foreground": "#87defc"
+            }
+        },
+        {
+            "scope": "source.ignore",
+            "settings": {
+                "foreground": "#dabba0"
             }
         },
     ],
