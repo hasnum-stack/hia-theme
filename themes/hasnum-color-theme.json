@@ -85,7 +85,7 @@
             }
         },
         {
-            "scope": "entity.name.type.interface.ts",
+            "scope": "entity.name.type.interface",
             "settings": {
                 "foreground": "#80d7f1"
             }
