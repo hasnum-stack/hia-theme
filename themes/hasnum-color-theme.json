@@ -561,19 +561,12 @@
             "scope": "string.regexp keyword, string.regexp keyword.control",
             "settings": {
                 "foreground": "#FF75B5",
-                "fontStyle": ""
             }
         },
         {
             "scope": "string.regexp keyword.operator",
             "settings": {
                 "foreground": "#FF9AC1"
-            }
-        },
-        {
-            "scope": "comment.block.documentation",
-            "settings": {
-                "fontStyle": ""
             }
         },
         {
@@ -665,20 +658,27 @@
         {
             "scope": "meta.definition.function",
             "settings": {
-                "foreground": "#0cd8d8"
+                "foreground": "#b2cf9f"
             }
         },
         {
             "scope": "meta.function-call",
             "settings": {
-                "foreground": "#97a0ee"
+                // "foreground": "#97a0ee"
+                "foreground": "#55ca9b"
+            }
+        },
+        {
+            "scope": "meta.definition.method",
+            "settings": {
+                "foreground": "#a1cc82"
             }
         },
         // {
         //     "scope": "entity.name.function",
         //     "settings": {
-        //         // "foreground": "#ffcda3"
-        //         "foreground": "#51b1fa"
+        //         "foreground": "#24e092"
+        //         // "foreground": "#97A0EE"
         //     }
         // },
         // {
