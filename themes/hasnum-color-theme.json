@@ -192,17 +192,16 @@
                 "foreground": "#FFCC95"
             }
         },
-        // {
-        //     "scope": "support",
-        //     "settings": {
-        //         "foreground": "#FFCC95"
-        //     }
-        // },
+        {
+            "scope": "support", //提供的
+            "settings": {
+                "foreground": "#86aba1"
+            }
+        },
         {
             "scope": "support.class",
             "settings": {
                 "foreground": "#FFCC95"
-                // FFCC95"
             }
         },
         {
@@ -697,9 +696,9 @@
         {
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#9d9bff"
+                "foreground": "#00ccff"
+                // "foreground": "#9d9bff"
                 // "foreground": "#a1cc82"
-                // "foreground": "#ffffff"
             }
         },
         // {
