@@ -3,7 +3,7 @@
     "displayName": "hasnum@hia-theme",
     "publisher": "hasnum",
     "description": "a theme",
-    "version": "0.1.1314",
+    "version": "0.1.1315",
     "engines": {
         "vscode": "^1.51.0"
     },

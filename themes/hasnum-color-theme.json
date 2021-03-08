@@ -728,7 +728,8 @@
         {
             "scope": "storage.type.function.arrow",
             "settings": {
-                "foreground": "#87defc"
+                "foreground": "#87defc",
+                "fontStyle": ""
             }
         },
         {
