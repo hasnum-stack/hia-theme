@@ -79,13 +79,20 @@
             }
         },
         {
-            "scope": "meta.interface",
+            "scope": "storage.type.interface,storage.type.type",
             "settings": {
-                "foreground": "#FF75B5"
+                // "foreground": "#FF75B5"
+                "foreground": "#ffb1b1"
             }
         },
         {
-            "scope": "entity.name.type.interface",
+            "scope": "meta.type.declaration",
+            "settings": {
+                "foreground": "#7eccd4",
+            }
+        },
+        {
+            "scope": "entity.name.type.interface,entity.name.type.alias ",
             "settings": {
                 "foreground": "#b89cec"
             }
@@ -124,7 +131,7 @@
             "scope": "variable.parameter",
             "settings": {
                 // "foreground": "#BBBBBB"
-                "foreground": "#00ccad"
+                "foreground": "#07ce9c"
             }
         },
         {
@@ -192,12 +199,12 @@
                 "foreground": "#FFCC95"
             }
         },
-        {
-            "scope": "support", //提供的
-            "settings": {
-                "foreground": "#eb91bf"
-            }
-        },
+        // {
+        //     "scope": "support", //提供的
+        //     "settings": {
+        //          "foreground": "#eb91bf"
+        //     }
+        // },
         {
             "scope": "support.class",
             "settings": {
@@ -611,7 +618,8 @@
         {
             "scope": "meta.type.annotation",
             "settings": {
-                "foreground": "#43f1fd"
+                "foreground": "#43F1FD",
+                "fontStyle": "italic"
             }
         },
         {
@@ -627,7 +635,7 @@
             }
         },
         {
-            "scope": "meta.return.type.ts",
+            "scope": "meta.return.type",
             "settings": {
                 "foreground": "#da9ff9"
             }
