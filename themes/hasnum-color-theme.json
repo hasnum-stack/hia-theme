@@ -21,7 +21,8 @@
         {
             "scope": "keyword", //关键字 if else
             "settings": {
-                "foreground": "#FF75B5"
+                "foreground": "#FF75B5",
+                "fontStyle": ""
             }
         },
         // {
@@ -635,12 +636,6 @@
             }
         },
         {
-            "scope": "meta.return.type",
-            "settings": {
-                "foreground": "#da9ff9"
-            }
-        },
-        {
             "scope": "new.expr",
             "settings": {
                 "foreground": "#eea857"
@@ -655,7 +650,10 @@
         {
             "scope": "meta.return.type",
             "settings": {
-                "foreground": "#ffabe1"
+                // "foreground": "#da9ff9",
+                // "foreground": "#ffabe1",
+                "foreground": "#43F1FD",
+                "fontStyle": "italic"
             }
         },
         {
