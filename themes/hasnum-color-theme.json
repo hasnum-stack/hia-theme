@@ -736,5 +736,11 @@
                 "foreground": "#dabba0"
             }
         },
+        {
+            "scope": "support.constant.color.w3c-standard-color-name",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
     ],
 }
