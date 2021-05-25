@@ -1,26 +1,26 @@
 {
-    "name": "hasnum-hia-theme",
-    "displayName": "hasnum@hia-theme",
-    "publisher": "hasnum",
-    "description": "a theme",
-    "version": "0.1.1317",
-    "engines": {
-        "vscode": "^1.51.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://gitee.com/hasnum/hia-theme"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "hasnum",
-                "uiTheme": "vs-dark",
-                "path": "./themes/hasnum-color-theme.json"
-            }
-        ]
-    }
+  "name": "@hasnum/hia-theme",
+  "displayName": "@hasnum/hia-theme",
+  "publisher": "hasnum",
+  "description": "a theme",
+  "version": "0.1.1318",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/hasnum/hia-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "hasnum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hasnum-color-theme.json"
+      }
+    ]
+  }
 }
