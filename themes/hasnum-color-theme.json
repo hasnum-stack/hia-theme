@@ -120,7 +120,7 @@
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#f87d64"
+        "foreground": "#ee7d67"
       }
     },
     // {
@@ -181,11 +181,17 @@
       }
     },
     {
-      "scope": "string", //字符串的颜色 '' 或者 ""
+      "scope": "string,meta.jsx.children", //字符串的颜色 '' || ""
       "settings": {
-        "foreground": "#54bbe0" // 1be0c4  
+        "foreground": "#afd8cf" // 1be0c4  
       }
     },
+    // {
+    //   "scope": "",
+    //   "settings": {
+    //     "foreground": "#bedbe5"
+    //   }
+    // },
     {
       "scope": [
         "punctuation.separator",
@@ -337,8 +343,7 @@
     {
       "scope": "support.class.component",
       "settings": {
-        // "foreground": "#ff66ad",
-        "foreground": "#f16056",
+        "foreground": "#fd655a",
         // "fontStyle": "italic"
       }
     },
@@ -658,12 +663,6 @@
       }
     },
     {
-      "scope": "meta.jsx.children",
-      "settings": {
-        "foreground": "#70cbec"
-      }
-    },
-    {
       "scope": "meta.function",
       "settings": {
         "foreground": "#9ba5ff"
@@ -703,9 +702,8 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#00ccff"
-        // "foreground": "#9d9bff"
-        // "foreground": "#a1cc82"
+        // "foreground": "#00ccff"
+        "foreground": "#b8b7f6"
       }
     },
     // {
@@ -743,5 +741,17 @@
         "foreground": "#ffffff"
       }
     },
+    {
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": "string.quoted.double.json",
+      "settings": {
+        "foreground": "#98C379"
+      }
+    }
   ],
 }
