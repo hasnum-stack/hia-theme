@@ -1,9 +1,9 @@
 {
-  "name": "hia-theme",
-  "displayName": "hasnum@hia-theme",
+  "name": "random-theme",
+  "displayName": "hasnum@random-theme",
   "publisher": "hasnum",
   "description": "a theme",
-  "version": "0.1.1322",
+  "version": "0.1.1323",
   "engines": {
     "vscode": "^1.51.0"
   },

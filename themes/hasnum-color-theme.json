@@ -2,7 +2,8 @@
   "name": "hasnum-theme",
   "type": "dark",
   "colors": {
-    "editor.background": "#272b2c",
+    // "editor.background": "#272b2c",
+    "editor.background": "#252525",
     "editor.foreground": "#eeffff",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
@@ -153,7 +154,7 @@
       "scope": "variable.other.object",
       "settings": {
         // "foreground": "#74cfaf"
-        "foreground": "#1ce29d"
+        "foreground": "#1beca3"
       }
     },
     {
@@ -183,7 +184,8 @@
     {
       "scope": "string,meta.jsx.children", //字符串的颜色 '' || ""
       "settings": {
-        "foreground": "#afd8cf" // 1be0c4  
+        // "foreground": "#75dfc8" // 1be0c4  
+        "foreground": "#67e4eb"  
       }
     },
     // {
@@ -334,16 +336,16 @@
         "foreground": "#FFCC95"
       }
     },
-    {
-      "scope": "entity.other.attribute-name.handlebars",
-      "settings": {
-        "foreground": "#FFCC95"
-      }
-    },
+    // {
+    //   "scope": "entity.other.attribute-name.handlebars",
+    //   "settings": {
+    //     "foreground": "#FFCC95"
+    //   }
+    // },
     {
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#fd655a",
+        "foreground": "#ff574b",
         // "fontStyle": "italic"
       }
     },
@@ -356,7 +358,8 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#FFB86C"
+        // "foreground": "#FFB86C"
+        "foreground": "#e4da4e"
       }
     },
     {
@@ -632,7 +635,7 @@
     {
       "scope": "variable.object.property",
       "settings": {
-        "foreground": "#93b0ff"
+        "foreground": "#FF67E7"
       }
     },
     {
@@ -703,7 +706,7 @@
       "scope": "entity.name.function",
       "settings": {
         // "foreground": "#00ccff"
-        "foreground": "#b8b7f6"
+        "foreground": "#a7a6ff"
       }
     },
     // {
