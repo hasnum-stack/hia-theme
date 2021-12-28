@@ -3,7 +3,8 @@
   "displayName": "hasnum@random-theme",
   "publisher": "hasnum",
   "description": "a theme",
-  "version": "0.1.1325",
+  "version": "0.1.1326",
+  "icon": "images/icon.jpg",
   "engines": {
     "vscode": "^1.51.0"
   },
