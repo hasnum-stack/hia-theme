@@ -138,7 +138,7 @@
       }
     },
     {
-      "scope": "meta.object-binding-pattern-variable.js variable",
+      "scope": "meta.object-binding-pattern-variable.js",
       "settings": {
         "foreground": "#FFCC95"
       }
@@ -668,7 +668,7 @@
     {
       "scope": "meta.function",
       "settings": {
-        "foreground": "#9ba5ff"
+        "foreground": "#fc49ff"
       }
     },
     // {
