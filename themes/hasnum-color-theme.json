@@ -666,7 +666,7 @@
       }
     },
     {
-      "scope": "meta.function",
+      "scope": "meta.function, keyword.function.go",
       "settings": {
         "foreground": "#fc49ff"
       }
