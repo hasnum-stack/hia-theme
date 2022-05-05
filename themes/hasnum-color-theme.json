@@ -124,6 +124,12 @@
         "foreground": "#ee7d67"
       }
     },
+    {
+      "scope": "source.go",
+      "settings": {
+        "foreground": "#f59b89"
+      }
+    },
     // {
     //     "scope": "variable.other.readwrite",
     //     "settings": {
@@ -185,7 +191,7 @@
       "scope": "string,meta.jsx.children", //字符串的颜色 '' || ""
       "settings": {
         // "foreground": "#75dfc8" // 1be0c4  
-        "foreground": "#67e4eb"  
+        "foreground": "#67e4eb"
       }
     },
     // {
@@ -633,6 +639,19 @@
       }
     },
     {
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#cfc2ab",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "entity.name.package.go",
+      "settings": {
+        "foreground": "#ff8d60",
+      }
+    },
+    {
       "scope": "variable.object.property",
       "settings": {
         "foreground": "#FF67E7"
@@ -715,10 +734,6 @@
     //         "foreground": "#a7c5eb"
     //     }
     // },
-    /**
-         * exclude:storage.type.class.jsdoc
-         * 
-         */
     {
       "scope": "storage.type.class.js,storage.type.class.ts,storage.type.class.jsx,storage.type.class.tsx",
       "settings": {
