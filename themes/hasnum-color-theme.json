@@ -639,7 +639,7 @@
       }
     },
     {
-      "scope": "storage.type",
+      "scope": "storage.type.string.go,storage.type.numeric.go,storage.type.boolean.go",
       "settings": {
         "foreground": "#cfc2ab",
         "fontStyle": "italic"
