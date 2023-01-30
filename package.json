@@ -3,7 +3,7 @@
   "displayName": "hasnum@random-theme",
   "publisher": "hasnum",
   "description": "a theme",
-  "version": "0.1.1328",
+  "version": "1.0.1",
   "icon": "images/icon.jpg",
   "engines": {
     "vscode": "^1.51.0"
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/hasnum/hia-theme"
+    "url": "https://github.com/hasnum-stack/hia-theme.git"
   },
   "contributes": {
     "themes": [

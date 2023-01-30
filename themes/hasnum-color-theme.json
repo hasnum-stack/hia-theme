@@ -121,7 +121,7 @@
     {
       "scope": "variable",
       "settings": {
-        "foreground": "#ee7d67"
+        "foreground": "#e47a64"
       }
     },
     {
@@ -140,7 +140,7 @@
       "scope": "variable.parameter",
       "settings": {
         // "foreground": "#BBBBBB"
-        "foreground": "#07ce9c"
+        "foreground": "#f38a8a"
       }
     },
     {
@@ -160,7 +160,7 @@
       "scope": "variable.other.object",
       "settings": {
         // "foreground": "#74cfaf"
-        "foreground": "#1beca3"
+        "foreground": "#27d699"
       }
     },
     {
@@ -191,7 +191,7 @@
       "scope": "string,meta.jsx.children", //字符串的颜色 '' || ""
       "settings": {
         // "foreground": "#75dfc8" // 1be0c4  
-        "foreground": "#67e4eb"
+        "foreground": "#62dce2"
       }
     },
     // {

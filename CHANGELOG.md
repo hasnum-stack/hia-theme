@@ -4,6 +4,11 @@ All notable changes to the "hasnum-hia-theme" extension will be documented in th
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.0.1] - 2023-01-30
+### Changed
+- 调整string,meta.jsx.children亮度
 
-- Initial release
+## [1.0.0] - 2023-01-30
+### Added
+- 正式版本
+
